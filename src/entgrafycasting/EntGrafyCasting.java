@@ -36,7 +36,7 @@ public class EntGrafyCasting {
        
         float promedio = (n1+n2+n3)/3;
         
-        JOptionPane.showMessageDialog(null,"Ingresó las notas " +(int)n1 + ", "+ (int)n2+" y "+ (int)n3);
+        JOptionPane.showMessageDialog(null,"Ingresó las notas " +(int)n1 + " , "+ (int)n2+" y "+ (int)n3);
 
         JOptionPane.showMessageDialog(null, "El proomedio de sus notas es: " + Math.round(promedio * 100d) / 100d);
         
